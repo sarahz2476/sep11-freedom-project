@@ -1,7 +1,7 @@
 # Entry 2
 ##### 12/01/2020
 
-Today, I tinkered with my tools to permanently determine which tools I will use for my freedom project. In the end I chose to use [Firebase].(https://console.firebase.google.com/u/1/). 
+Today, I tinkered with my tools to permanently determine which tools I will use for my freedom project. In the end I chose to use [Firebase](https://console.firebase.google.com/u/1/). 
 
 I was quite determine in using Firebase and so I did a lot of research on it. I used youtube videos like "[Creating a website in HTML/JS that stores data in Firebase](https://www.youtube.com/watch?v=-UOkri_WNWQ&t=315s)" and "[Creating a Firebase Project](https://www.youtube.com/watch?v=6juww5Lmvgo)" to help:
 1)undertsand this tool better
