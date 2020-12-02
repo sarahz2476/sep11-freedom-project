@@ -4,9 +4,13 @@
 Today, I tinkered with my tools to permanently determine which tools I will use for my freedom project. In the end I chose to use [Firebase](https://console.firebase.google.com/u/1/). 
 
 I was quite determine in using Firebase and so I did a lot of research on it. I used youtube videos like "[Creating a website in HTML/JS that stores data in Firebase](https://www.youtube.com/watch?v=-UOkri_WNWQ&t=315s)" and "[Creating a Firebase Project](https://www.youtube.com/watch?v=6juww5Lmvgo)" to help:
+
 1)undertsand this tool better
+
 2)setting up this tool 
+
 3)tinkering and using this tool for an demo
+
 In the beginning, I was still so confused with what Firebase is and what it does. Only after watching a [youtube video about it](https://www.youtube.com/watch?v=O17OWyx08Cg), was I able to understand that Firebase is a like server for a website. It literally tracks, stores, and save data. At first I thought that the tools we had to use were all new coding languages. Anyways after spending like 4 hours on tinkering it, I grasped some ideas about it.
 
 I was already determined to choose Firebase before I ever tinker with it. I felt like if I wanted to do a planner, Firebase is a must. Throughout the Engineering Design Process, I am planning the most promising solution. I have already brainstormed solutions to my problem and right now I chose to use Firebase as a tool to help with create a organized planner. My Freedom project will be on making a planner. My is unique because I will create a month, week, day sections and each section, the user can view what they need to do, need to go, etc. So on the month view, I was thinking of making it into a calender and the calender will show events, appointments, etc. The week section will shows events and the events will be color coded. The day section will show a todo list and any appointments / events the user will have on that day. But my first priority is to make the day section before jumping into the other two sections. 
