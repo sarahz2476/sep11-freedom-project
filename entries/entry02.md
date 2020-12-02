@@ -13,14 +13,14 @@ I was already into Firebase before I ever tinker with it. I felt like if I wante
 
 So today I actually made 5 demos and only the [5th demo](https://demo5.sarahzhang3.repl.co) worked. Basically, in my demo I wanted to set up my Firebase tool onto my repl.it. So I had to go to [Firebase Console](https://console.firebase.google.com/u/1/), created a new project and add Firebase JS SDKs and scripts to my code to connect my demo to Firebase. I then created codes so that user can input their name and age on it and the information will then transfer to my demo 5 Firebase realtime database, which you also has to add a Firebase JS SDKs and enable it. My codes includes:
 *The look of the project*
-  <body>
+  '''<body>
     <h1>Demo User Database</h1>
     <input type= "text" placeholder="Name" id ="namefield"><br>
     <input type= "text" placeholder="Age" id ="agefield"><br>
     <button onclick = "writeData()">Submit</button>
-    <p id= "data"></p>
+    <p id= "data"></p>'''
 *Some Firebase JS SDKs and scripts I had to include to make it work*
-    <script src="script.js"></script>
+    '''<script src="script.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
@@ -36,17 +36,17 @@ So today I actually made 5 demos and only the [5th demo](https://demo5.sarahzhan
     appId: "1:810087239268:web:e7f38ae72d9fe47530d971"
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);'''
 *The function that saves and transfer user's data to the Realtime database*
-  function writeData(){
+  '''function writeData(){
     firebase.database().ref("User").set ({
       name:document.getElementById("namefield").value,
       age:document.getElementById("agefield").value
       });
       getData();
-  }
+  }'''
 *The function that displays the data so the user can see*
- function getData(){
+''' function getData(){
    firebase.database().ref("/").once('value', function(snapshot) {
      snapshot.forEach(function(usersnapshot)
      {
@@ -57,7 +57,7 @@ So today I actually made 5 demos and only the [5th demo](https://demo5.sarahzhan
    })
  }
  getData()
-</script>
+</script>'''
 
 Skills I learn from this experience was debugging and embracing my failures. I had a lot of problem in tinkering the tool, as you can see: I made 5 demos. Many time, it was because of syntax errors. I had to look through the long codes and find out which error I had to change. Thank god the console tells us about the error. It get more frustrating each time I fail, however, I was able to grasp more knowledge about the tool because the more mistakes and failures I made, the more I search up and took advantage of guides that I found and was provided. And in the end I succeeded with tinkering my tools. 
   
