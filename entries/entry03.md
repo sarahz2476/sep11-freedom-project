@@ -94,9 +94,8 @@ function signUp() {
   var email = document.getElementById("email");
   var password = document.getElementById("password");
 
-  const promise = auth.createUserWithEmailAndPassword(email.value, password.value);
-  promise.catch(e => alert(e.message));
-
+  const promise = auth.createUserWithEmailAndPassword(email.value, password.value); // At first I tried to put this on two different code but I kept getting console error
+  promise.catch(e => alert(e.message)); // the .catch is something I learn. Basically if there is an error it will alert the user 
   alert("Signed Up");
 };
 function signIn() {
