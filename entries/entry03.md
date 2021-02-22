@@ -42,6 +42,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 firebase.auth();
 
+// the variable firebaseConfig can be created with var and const. The guide provide it with var however I made it with const.
 // This is the exact code from my recent project
 ```
 In the beginning, I had a confusing time with setting up and importing Firebase SDKs into my application project because I used SDKs from module bundlers which has a completely different code. I also try to set up Firebase CLI reference (this was not what I wanted). I kept using``` npm install -g firebase-tools``` and then trying to logging into Firebase using ``` firebase login```. I was constantly getting errors and it frustrated me so much. Only after a detailed inspection did I realize that I was setting Firebase the wrong way.
@@ -123,7 +124,6 @@ auth.onAuthStateChanged(function (user) {
     var email = user.email;
     alert("Active User " + email);
 
-    //Take user to a different or home page
 
     //is signed in
 
