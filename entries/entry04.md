@@ -7,7 +7,7 @@ At this point of time, I am learning my tool, Firebase, and have also started my
 ## Engineering Design Process
 I am currently at the late part of stage 4 and in the middle of stage 5 of the Engineering Design Process: <b>Planning the most promising solution</b> and <b>Creating a prototype</b>. 
 
-In my last blog entry, I stated that I focus on Firebase Authentication and was able to create a small <a href = "https://login2.sarahzhang3.repl.co"> login, signup, and log out </a> function. At the same time, I have recently coded my first prototype but it does not have any firebase functions yet. I am experimenting on firebase separately. 
+In my last blog entry, I stated that I focus on Firebase Authentication and was able to create a small <a href = "https://login2.sarahzhang3.repl.co"> login, signup, and log out </a> function. I have added firebase database to it. At the same time, I have recently coded my first prototype but it does not have any firebase functions yet. I am experimenting on firebase separately. 
 
 I am planning to continued with learning more about Firebase and planning to incorporate some into my prototype. This way I can minimize errors which helps organize my codes better.
  
