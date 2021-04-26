@@ -24,7 +24,7 @@ var data = {
 ```
 In the code above, I want to save data of the email and password. Therefore in the data varaible I store in the email and password input value as data. After, I used 'ref' to create a "account" reference in my database. I then push that data into it. It is not much but it helped me understand more about Realtime database. 
 
-I have created a MVP to help me manage this freedom project. In the MVP, we plan what our core function of our project is and then we create a timeline to plan the weeks following up to June 1.
+I have created a MVP to help me manage this freedom project. In the MVP, I planned what my core function of my freedom project is and then I created a timeline to plan the weeks following up to June 1.
 
 Here is the javascript code for my <a href = https://ide-6bbb60f064c04a0292e9d817cdb2daf9-8081.cs50.ws/index.html> prototype 1</a>:
 ```
